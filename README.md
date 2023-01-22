@@ -1,1 +1,1 @@
-OTUS HOMEWORK Typescript (часть 1)
+OTUS HOMEWORK Typescript (С‡Р°СЃС‚СЊ 1)
