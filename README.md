@@ -1,0 +1,1 @@
+OTUS HOMEWORK Typescript (часть 1)
