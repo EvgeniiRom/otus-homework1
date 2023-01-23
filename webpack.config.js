@@ -1,4 +1,4 @@
-const path = require('path')
+const path = require('path');
 
 module.exports = {
     entry: './src/index.ts',
@@ -6,17 +6,17 @@ module.exports = {
         rules: [
             {
                 use: 'ts-loader',
-                exclude: '/node_modules/'
-            }
-        ]
+                exclude: '/node_modules/',
+            },
+        ],
     },
     resolve: {
-        extensions: ['.ts', '.js']
+        extensions: ['.ts', '.js'],
     },
     output: {
         path: path.resolve(__dirname, 'dist'),
-        filename: 'wp.bundle.js'
+        filename: 'wp.bundle.js',
     },
     target: 'node',
-    mode: 'development'
-}
+    mode: 'development',
+};
